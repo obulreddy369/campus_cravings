@@ -1,0 +1,24 @@
+/* Google Fonts should be the first import */
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+/* Tailwind CSS should be imported AFTER other styles */
+@import "tailwindcss";
+
+* {
+  font-family: "Outfit", sans-serif;
+}
+
+html,
+body {
+  overflow: auto;
+  scrollbar-width: none;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
