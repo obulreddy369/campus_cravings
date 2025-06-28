@@ -224,7 +224,7 @@ const InfoSection = () => {
 
 
 
-      {/* Group Orders */}
+      {/* Find by image */}
       <div
         id="group-orders"
         variants={fadeInUp}
@@ -232,13 +232,13 @@ const InfoSection = () => {
         style={{ backgroundImage: `url(${assets.grp_bg})`,height:'400px',borderRadius: "10px" }}
       >
         <h2 className="text-3xl md:text-4xl font-bold md:mb-8 mb-2">
-          Group Orders
+          Find By Image
         </h2>
         <motion.div
           whileHover={{ scale: 1.05 }}
           className="inline-block bg-amber-500 text-[#f1f1f1] font-bold py-3 px-8 rounded-full text-lg cursor-pointer md:mb-10"
         >
-          Start a Group Order
+          Upload Image
         </motion.div>
       </div>
 

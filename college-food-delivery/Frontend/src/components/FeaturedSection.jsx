@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import AnimatedSection from "./AnimatedSection";
 import { assets, foodData } from "../assets/assets";
+import { useNavigate } from "react-router-dom";
 
 const FeaturedSection = () => {
   const [rotation, setRotation] = useState(0);
@@ -9,6 +10,7 @@ const FeaturedSection = () => {
   const [startIndex, setStartIndex] = useState(0);
   const [isUserInteracting, setIsUserInteracting] = useState(false);
 
+  const navigate=useNavigate();
   const interactiveRef = useRef(null);
   const lastClientY = useRef(null);
   const interactionTimeoutRef = useRef(null);
@@ -127,10 +129,14 @@ const FeaturedSection = () => {
     currentItems.push(foodData[(startIndex + i) % foodData.length]);
   }
 
+  const handleOnClick=(id)=>{
+    navigate(`food/${id}`)
+  }
+
   return (
     <AnimatedSection
       id="featured"
-      className="relative w-full min-h-0 h-auto overflow-hidden bg-gradient-to-b from-amber-50 to-gray-500"
+      className="relative w-full min-h-0 h-auto overflow-hidden bg-gradient-to-b from-gray-50 to-orange-50"
     >
       
       <div
@@ -178,6 +184,7 @@ const FeaturedSection = () => {
               return (
                 <motion.div
                   key={index}
+                  onClick={()=>handleOnClick(item.id)}
                   className="absolute left-[35%] sm:left-1/2 top-[45%] md:top-[40%] sm:top-[30%]"
                   style={{
                     transform: `translate(${x}px, ${y}px)`,

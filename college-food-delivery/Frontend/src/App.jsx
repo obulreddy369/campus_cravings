@@ -11,6 +11,7 @@ import Favourites from "./pages/Favourites";
 import FoodDetails from "./components/FoodDetails";
 import Login from "./pages/Login";
 import RestaurantDetails from "./components/RestaurantDetails";
+import Checkout from "./components/checkout";
 
 const App = () => {
   return (
@@ -23,8 +24,9 @@ const App = () => {
         <Route path="/restaurants" element={<Restaurants />} />
         <Route path="/login" element={<Login />} />
         <Route path="/cart" element={<Cart />} />
-        <Route path="my-profile" element={<MyProfile />}>
-          <Route path="/my-profile" element={<Profile />} />
+        <Route path="/checkout" element={<Checkout />} />
+        <Route path="/my-profile" element={<MyProfile />}>
+          <Route index element={<Profile />} />
           <Route path="favourites" element={<Favourites />} />
           <Route path="orders" element={<Orders />} />
         </Route>

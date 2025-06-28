@@ -24,7 +24,7 @@ const Login = () => {
         const { data } = await axios.post(`${backendUrl}/api/user/login`, {
           email,
           password,
-        });
+        },{ withCredentials: true });
         if (data.success) {
           toast.success(data.message);
           setToken(data.token);       // ✅ Token stored in context
@@ -41,9 +41,12 @@ const Login = () => {
           email,
           phone,
           password,
-        });
+        },{ withCredentials: true });
         if (data.success) {
           toast.success(data.message);
+          setToken(data.token);      
+          setUser(data.user); 
+          setShowLogin(false);        
           navigate("/");
         } else {
           toast.error(data.message);
@@ -56,8 +59,8 @@ const Login = () => {
   };
 
   return (
-    <div className="absolute w-full h-screen bg-black bg-opacity-70 z-50 flex items-center justify-center">
-      
+    <div className="absolute w-full h-screen bg-opacity-70 z-50 flex items-center justify-center">
+
       <form
         onSubmit={onSubmitHandler}
         className="bg-white p-8 rounded-lg shadow-xl w-full max-w-sm"

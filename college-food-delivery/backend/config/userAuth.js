@@ -11,7 +11,8 @@ const isAuthenticated = async (req, res, next) => {
     }
 
     const decoded = jwt.verify(token, process.env.JWT_SECRET_KEY);
-    req.user = { id: decoded.id }; // ✅ correct field name (id)
+
+    req.user = { id: decoded.id, email: decoded.email }; // ✅ include email
 
     next();
   } catch (error) {

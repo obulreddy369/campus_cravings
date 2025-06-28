@@ -2,9 +2,11 @@ import express from 'express'
 import isAuthenticated from '../config/userAuth.js'
 import { Login,Register,logout,updateUserProfile } from '../controllers/userController.js';
 import { createReview,getRestaurantReviews,deleteReview } from '../controllers/reviewController.js';
-import { placeOrder,getUserOrders } from '../controllers/orderController.js';
+import { placeOrder,getUserOrders, updateOrderStatus } from '../controllers/orderController.js';
 import { getFoodByRestaurant } from '../controllers/foodController.js';
 import { addToCart,getCartItems,removeFromCart,clearCart } from '../controllers/cartController.js';
+import { syncOrderToServiceNow } from '../controllers/servicenowController.js';
+import { getUserProfile } from '../controllers/userController.js';
 
 const router = express.Router()
 
@@ -13,6 +15,7 @@ const router = express.Router()
 router.route("/register").post(Register)
 router.route("/login").post(Login)
 router.route("/logout").get(logout);
+router.get("/profile", isAuthenticated, getUserProfile);
 router.put("/profile/update", isAuthenticated, updateUserProfile);
 
 // Food Items
@@ -27,6 +30,8 @@ router.delete("/cart/clear", isAuthenticated, clearCart);
 // Orders
 router.post("/order", isAuthenticated, placeOrder);
 router.get("/orders", isAuthenticated, getUserOrders);
+router.post("/sync-orders",isAuthenticated,syncOrderToServiceNow);
+router.post('/update-status',updateOrderStatus);
 
 // Reviews
 router.post("/review", isAuthenticated, createReview);

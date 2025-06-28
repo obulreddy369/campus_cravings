@@ -496,9 +496,8 @@ export const restaurentsData =
 
 
 export const foodData = [
-  // Rice items (IDs 1 to 15)
   {
-    id: 1,
+    id: "507f1f77bcf86cd799439011",
     name: "Hyderabadi Chicken Biryani",
     restaurant: "Biryani House",
     restaurantAddress: "123 Biryani Street, Hyderabad, India",
@@ -510,10 +509,10 @@ export const foodData = [
     image:
       "https://images.unsplash.com/photo-1599043513900-ed6fe01d3833?auto=format&fit=crop&w=800&q=80",
     category: "rice",
-    tags: ["🍗 Nonveg", "🔥 Spicy"],
+    tags: ["🍗 Nonveg", "🔥 Spicy"]
   },
   {
-    id: 2,
+    id: "507f191e810c19729de860ea",
     name: "Vegetable Fried Rice",
     restaurant: "Asian Wok",
     restaurantAddress: "456 Wok Avenue, Singapore",
@@ -525,10 +524,10 @@ export const foodData = [
     image:
       "https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&w=800&q=80",
     category: "rice",
-    tags: ["🍃 Veg", "🧊 Light"],
+    tags: ["🍃 Veg", "🧊 Light"]
   },
   {
-    id: 3,
+    id: "5f7b2a1c4d8e9f3a2b1c4d9a",
     name: "Mutton Lucknowi Biryani",
     restaurant: "Royal Kitchen",
     restaurantAddress: "789 Royal Road, Lucknow, India",
@@ -540,10 +539,10 @@ export const foodData = [
     image:
       "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=800&q=80",
     category: "rice",
-    tags: ["🍗 Nonveg", "🍛 Rich"],
+    tags: ["🍗 Nonveg", "🍛 Rich"]
   },
   {
-    id: 4,
+    id: "60a1b3c4e5f6789d12345678",
     name: "Schezwan Fried Rice",
     restaurant: "Dragon Express",
     restaurantAddress: "101 Dragon Blvd, Beijing, China",
@@ -555,10 +554,10 @@ export const foodData = [
     image:
       "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=800&q=80",
     category: "rice",
-    tags: ["🍗 Nonveg", "🔥 Spicy"],
+    tags: ["🍗 Nonveg", "🔥 Spicy"]
   },
   {
-    id: 5,
+    id: "5e8c4d2a9b1f7c4e5d6a3b2f",
     name: "Kolkata Chicken Biryani",
     restaurant: "Bengal Flavors",
     restaurantAddress: "202 Bengal Street, Kolkata, India",
@@ -570,10 +569,10 @@ export const foodData = [
     image:
       "https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?auto=format&fit=crop&w=800&q=80",
     category: "rice",
-    tags: ["🍗 Nonveg", "🔥 Spicy"],
+    tags: ["🍗 Nonveg", "🔥 Spicy"]
   },
   {
-    id: 6,
+    id: "61b2c4d567e890f1a2b3c4d5",
     name: "Thai Basil Fried Rice",
     restaurant: "Thai Spice",
     restaurantAddress: "303 Spice Road, Bangkok, Thailand",
@@ -585,10 +584,10 @@ export const foodData = [
     image:
       "https://images.unsplash.com/photo-1534790566855-4cb788d389ec?auto=format&fit=crop&w=800&q=80",
     category: "rice",
-    tags: ["🍗 Nonveg", "🌿 Aromatic"],
+    tags: ["🍗 Nonveg", "🌿 Aromatic"]
   },
   {
-    id: 7,
+    id: "5c9d5e6f7a1b2c3d4e5f6a78",
     name: "Egg Fried Rice",
     restaurant: "Wok Master",
     restaurantAddress: "404 Master Lane, Beijing, China",
@@ -600,10 +599,10 @@ export const foodData = [
     image:
       "https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&w=800&q=80",
     category: "rice",
-    tags: ["🍗 Nonveg", "⚡ Quick"],
+    tags: ["🍗 Nonveg", "⚡ Quick"]
   },
   {
-    id: 8,
+    id: "62c3d5e678f901a2b3c4d5e6",
     name: "Awadhi Mutton Biryani",
     restaurant: "Nawabi Kitchen",
     restaurantAddress: "505 Nawab Circle, Lucknow, India",
@@ -615,10 +614,10 @@ export const foodData = [
     image:
       "https://images.unsplash.com/photo-1633945274405-b6c8069047b0?auto=format&fit=crop&w=800&q=80",
     category: "rice",
-    tags: ["🍗 Nonveg", "🍛 Rich"],
+    tags: ["🍗 Nonveg", "🍛 Rich"]
   },
   {
-    id: 9,
+    id: "5a1e6f7890b2c3d4e5f6a789",
     name: "Kimchi Fried Rice",
     restaurant: "Seoul Kitchen",
     restaurantAddress: "606 Seoul Street, Seoul, South Korea",
@@ -630,10 +629,10 @@ export const foodData = [
     image:
       "https://images.unsplash.com/photo-1580651315530-69c8e0026377?auto=format&fit=crop&w=800&q=80",
     category: "rice",
-    tags: ["🍃 Veg", "🍋 Tangy"],
+    tags: ["🍃 Veg", "🍋 Tangy"]
   },
   {
-    id: 10,
+    id: "63d4e6f7890a1b2c3d4e5f67",
     name: "Malabar Prawn Biryani",
     restaurant: "Coastal Flavors",
     restaurantAddress: "707 Coastal Drive, Mumbai, India",
@@ -645,10 +644,10 @@ export const foodData = [
     image:
       "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=800&q=80",
     category: "rice",
-    tags: ["🍗 Nonveg", "🐟 Seafood"],
+    tags: ["🍗 Nonveg", "🐟 Seafood"]
   },
   {
-    id: 11,
+    id: "5b2f7a890b1c2d3e4f5a6789",
     name: "Pineapple Fried Rice",
     restaurant: "Thai Paradise",
     restaurantAddress: "808 Paradise Ave, Pattaya, Thailand",
@@ -660,10 +659,10 @@ export const foodData = [
     image:
       "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=800&q=80",
     category: "rice",
-    tags: ["🍃 Veg", "🏝️ Tropical"],
+    tags: ["🍃 Veg", "🏝️ Tropical"]
   },
   {
-    id: 12,
+    id: "64e5f7a890b1c2d3e4f5a678",
     name: "Calicut Chicken Biryani",
     restaurant: "Kerala Kitchen",
     restaurantAddress: "909 Kerala Road, Kochi, India",
@@ -675,10 +674,10 @@ export const foodData = [
     image:
       "https://images.unsplash.com/photo-1599043513900-ed6fe01d3833?auto=format&fit=crop&w=800&q=80",
     category: "rice",
-    tags: ["🍗 Nonveg", "🔥 Spicy"],
+    tags: ["🍗 Nonveg", "🔥 Spicy"]
   },
   {
-    id: 13,
+    id: "5c3a8b901c2d3e4f5a67890b",
     name: "Yangzhou Fried Rice",
     restaurant: "Chinese Palace",
     restaurantAddress: "111 Palace St, Beijing, China",
@@ -690,10 +689,10 @@ export const foodData = [
     image:
       "https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&w=800&q=80",
     category: "rice",
-    tags: ["🍗 Nonveg", "🍄 Umami"],
+    tags: ["🍗 Nonveg", "🍄 Umami"]
   },
   {
-    id: 14,
+    id: "65f6a8b901c2d3e4f5a6789c",
     name: "Sindhi Vegetable Biryani",
     restaurant: "Sindh House",
     restaurantAddress: "121 Sindh Road, Karachi, Pakistan",
@@ -705,10 +704,10 @@ export const foodData = [
     image:
       "https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?auto=format&fit=crop&w=800&q=80",
     category: "rice",
-    tags: ["🍃 Veg", "🌿 Aromatic"],
+    tags: ["🍃 Veg", "🌿 Aromatic"]
   },
   {
-    id: 15,
+    id: "5d4b9c012d3e4f5a67890bcd",
     name: "Nasi Goreng",
     restaurant: "Indonesian Delights",
     restaurantAddress: "131 Delight Street, Jakarta, Indonesia",
@@ -720,12 +719,10 @@ export const foodData = [
     image:
       "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=800&q=80",
     category: "rice",
-    tags: ["🍗 Nonveg", "🔥 Spicy"],
+    tags: ["🍗 Nonveg", "🔥 Spicy"]
   },
-
-  // Snacks items (IDs 16 to 27)
   {
-    id: 16,
+    id: "66a7b9c012d3e4f5a67890de",
     name: "Margherita Pizza",
     restaurant: "Pizza Palace",
     restaurantAddress: "141 Pizza Plaza, New York, USA",
@@ -737,10 +734,10 @@ export const foodData = [
     image:
       "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=80",
     category: "snacks",
-    tags: ["🍃 Veg", "🧀 Cheesy"],
+    tags: ["🍃 Veg", "🧀 Cheesy"]
   },
   {
-    id: 17,
+    id: "5e5c0d123e4f5a67890bcdef",
     name: "Veggie Supreme",
     restaurant: "Green Bites",
     restaurantAddress: "151 Green Street, San Francisco, USA",
@@ -752,10 +749,10 @@ export const foodData = [
     image:
       "https://images.unsplash.com/photo-1590947132387-155cc02f3212?auto=format&fit=crop&w=800&q=80",
     category: "snacks",
-    tags: ["🍃 Veg", "😋 Delicious"],
+    tags: ["🍃 Veg", "😋 Delicious"]
   },
   {
-    id: 18,
+    id: "67b8c0d123e4f5a67890bcef",
     name: "Mozzarella Sticks",
     restaurant: "Cheese Delights",
     restaurantAddress: "161 Cheese Avenue, Wisconsin, USA",
@@ -767,10 +764,10 @@ export const foodData = [
     image:
       "https://images.unsplash.com/photo-1548340748-6d2b7d7da280?auto=format&fit=crop&w=800&q=80",
     category: "snacks",
-    tags: ["🍃 Veg", "🧀 Cheesy"],
+    tags: ["🍃 Veg", "🧀 Cheesy"]
   },
   {
-    id: 19,
+    id: "5f6d1e234f5a67890bcdef01",
     name: "Burger Beef 'Anjaz'",
     restaurant: "Burger Boz",
     restaurantAddress: "171 Burger Lane, Chicago, USA",
@@ -782,10 +779,10 @@ export const foodData = [
     image:
       "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=80",
     category: "snacks",
-    tags: ["🍗 Nonveg", "🍖 Savory"],
+    tags: ["🍗 Nonveg", "🍖 Savory"]
   },
   {
-    id: 20,
+    id: "68c9d1e234f5a67890bcdef2",
     name: "Chicken Wings",
     restaurant: "Wing Zone",
     restaurantAddress: "181 Wing Road, Atlanta, USA",
@@ -797,10 +794,10 @@ export const foodData = [
     image:
       "https://images.unsplash.com/photo-1567620832903-9fc6debc209f?auto=format&fit=crop&w=800&q=80",
     category: "snacks",
-    tags: ["🍗 Nonveg", "🔥 Spicy"],
+    tags: ["🍗 Nonveg", "🔥 Spicy"]
   },
   {
-    id: 21,
+    id: "5a7e2f345a67890bcdef0123",
     name: "BBQ Bacon",
     restaurant: "Smoke House",
     restaurantAddress: "191 Smoke Blvd, Los Angeles, USA",
@@ -812,10 +809,10 @@ export const foodData = [
     image:
       "https://images.unsplash.com/photo-1528607929212-2636ec44253e?auto=format&fit=crop&w=800&q=80",
     category: "snacks",
-    tags: ["🍗 Nonveg", "🔥 Smoky"],
+    tags: ["🍗 Nonveg", "🔥 Smoky"]
   },
   {
-    id: 22,
+    id: "69d0e2f345a67890bcdef234",
     name: "French Fries",
     restaurant: "Fry Heaven",
     restaurantAddress: "201 Fry Street, New York, USA",
@@ -827,10 +824,10 @@ export const foodData = [
     image:
       "https://images.unsplash.com/photo-1541592106381-b31e9677c0e5?auto=format&fit=crop&w=800&q=80",
     category: "snacks",
-    tags: ["🍃 Veg", "🍟 Crispy"],
+    tags: ["🍃 Veg", "🍟 Crispy"]
   },
   {
-    id: 23,
+    id: "5b8f3a456b7890bcdef01234",
     name: "Double Stack",
     restaurant: "Stack House",
     restaurantAddress: "211 Stack Avenue, Boston, USA",
@@ -842,10 +839,10 @@ export const foodData = [
     image:
       "https://images.unsplash.com/photo-1586816001966-79b736744398?auto=format&fit=crop&w=800&q=80",
     category: "snacks",
-    tags: ["🍗 Nonveg", "😋 Delicious"],
+    tags: ["🍗 Nonveg", "😋 Delicious"]
   },
   {
-    id: 24,
+    id: "6ae1f4b567c890bcdef12345",
     name: "Pepperoni Pizza",
     restaurant: "Pizza Hut",
     restaurantAddress: "221 Pizza Road, Houston, USA",
@@ -857,10 +854,10 @@ export const foodData = [
     image:
       "https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?auto=format&fit=crop&w=800&q=80",
     category: "snacks",
-    tags: ["🍗 Nonveg", "🔥 Spicy"],
+    tags: ["🍗 Nonveg", "🔥 Spicy"]
   },
   {
-    id: 25,
+    id: "5c9a5b678d901cdef0123456",
     name: "Classic Cheeseburger",
     restaurant: "Burger House",
     restaurantAddress: "231 Burger Avenue, Dallas, USA",
@@ -872,10 +869,10 @@ export const foodData = [
     image:
       "https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?auto=format&fit=crop&w=800&q=80",
     category: "snacks",
-    tags: ["🍗 Nonveg", "🍖 Savory"],
+    tags: ["🍗 Nonveg", "🍖 Savory"]
   },
   {
-    id: 26,
+    id: "6bf2a6c789e012def1234567",
     name: "Nachos Supreme",
     restaurant: "Tex-Mex Grill",
     restaurantAddress: "241 Tex-Mex Blvd, Austin, USA",
@@ -887,10 +884,10 @@ export const foodData = [
     image:
       "https://images.unsplash.com/photo-1513456852971-30c0b8199d4d?auto=format&fit=crop&w=800&q=80",
     category: "snacks",
-    tags: ["🍃 Veg", "😋 Delicious"],
+    tags: ["🍃 Veg", "😋 Delicious"]
   },
   {
-    id: 27,
+    id: "5d0b7c8901f123ef456789ab",
     name: "Mushroom Swiss",
     restaurant: "Burger Joint",
     restaurantAddress: "251 Joint Street, Miami, USA",
@@ -902,12 +899,10 @@ export const foodData = [
     image:
       "https://images.unsplash.com/photo-1551615593-ef5fe247e8f7?auto=format&fit=crop&w=800&q=80",
     category: "snacks",
-    tags: ["🍃 Veg", "🧀 Cheesy"],
+    tags: ["🍃 Veg", "🧀 Cheesy"]
   },
-
-  // Drinks items (IDs 28 to 42)
   {
-    id: 28,
+    id: "6ca8b7d901f234f56789abcd",
     name: "Oreo Milkshake",
     restaurant: "Shake Shack",
     restaurantAddress: "261 Shake Street, New York, USA",
@@ -919,10 +914,10 @@ export const foodData = [
     image:
       "https://images.unsplash.com/photo-1579954115545-a95591f28bfc?auto=format&fit=crop&w=800&q=80",
     category: "drinks",
-    tags: ["🍃 Veg", "🍭 Sweet"],
+    tags: ["🍃 Veg", "🍭 Sweet"]
   },
   {
-    id: 29,
+    id: "5e1c8e9012a345g6789abcde",
     name: "Mango Lassi",
     restaurant: "Lassi Corner",
     restaurantAddress: "271 Lassi Lane, Mumbai, India",
@@ -934,10 +929,10 @@ export const foodData = [
     image:
       "https://images.unsplash.com/photo-1527661591475-527312dd65f5?auto=format&fit=crop&w=800&q=80",
     category: "drinks",
-    tags: ["🍃 Veg", "💧 Refreshing"],
+    tags: ["🍃 Veg", "💧 Refreshing"]
   },
   {
-    id: 30,
+    id: "6db9c0f123b456h789abcdef",
     name: "Classic Mojito",
     restaurant: "Mocktail Bar",
     restaurantAddress: "281 Mocktail Road, London, UK",
@@ -949,10 +944,10 @@ export const foodData = [
     image:
       "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=800&q=80",
     category: "drinks",
-    tags: ["🍃 Veg", "💧 Refreshing"],
+    tags: ["🍃 Veg", "💧 Refreshing"]
   },
   {
-    id: 31,
+    id: "5f2d0a1234c567i89abcdef0",
     name: "Strawberry Smoothie",
     restaurant: "Smoothie World",
     restaurantAddress: "291 Smoothie Ave, Los Angeles, USA",
@@ -964,10 +959,10 @@ export const foodData = [
     image:
       "https://images.unsplash.com/photo-1553530666-ba11a7da3888?auto=format&fit=crop&w=800&q=80",
     category: "drinks",
-    tags: ["🍃 Veg", "🍓 Fruity"],
+    tags: ["🍃 Veg", "🍓 Fruity"]
   },
   {
-    id: 32,
+    id: "6ec0b1f234d678j90abcdef1",
     name: "Chocolate Milkshake",
     restaurant: "Shake Haven",
     restaurantAddress: "301 Haven Street, Chicago, USA",
@@ -979,10 +974,10 @@ export const foodData = [
     image:
       "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=800&q=80",
     category: "drinks",
-    tags: ["🍃 Veg", "🍭 Sweet"],
+    tags: ["🍃 Veg", "🍭 Sweet"]
   },
   {
-    id: 33,
+    id: "5a3e1c2345e789k01abcdef2",
     name: "Blue Lagoon Mocktail",
     restaurant: "Ocean Breeze",
     restaurantAddress: "311 Ocean Drive, Miami, USA",
@@ -994,10 +989,10 @@ export const foodData = [
     image:
       "https://images.unsplash.com/photo-1560508180-03f285f67ded?auto=format&fit=crop&w=800&q=80",
     category: "drinks",
-    tags: ["🍃 Veg", "🏝️ Tropical"],
+    tags: ["🍃 Veg", "🏝️ Tropical"]
   },
   {
-    id: 34,
+    id: "6fd1c2a345f890l12abcdef3",
     name: "Vanilla Bean Shake",
     restaurant: "Creamy Delights",
     restaurantAddress: "321 Creamy Road, San Francisco, USA",
@@ -1009,10 +1004,10 @@ export const foodData = [
     image:
       "https://images.unsplash.com/photo-1528740096961-3798add19cb7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmVhbiUyMHNoYWtlfGVufDB8fDB8fHww",
     category: "drinks",
-    tags: ["🍃 Veg", "🥛 Creamy"],
+    tags: ["🍃 Veg", "🥛 Creamy"]
   },
   {
-    id: 35,
+    id: "5b4f2d3456a901m23abcdef4",
     name: "Virgin Piña Colada",
     restaurant: "Tropical Tastes",
     restaurantAddress: "331 Tropical Ave, Honolulu, USA",
@@ -1024,10 +1019,10 @@ export const foodData = [
     image:
       "https://images.unsplash.com/photo-1619604395920-a16f33192a50?auto=format&fit=crop&w=800&q=80",
     category: "drinks",
-    tags: ["🍃 Veg", "🏝️ Tropical"],
+    tags: ["🍃 Veg", "🏝️ Tropical"]
   },
   {
-    id: 36,
+    id: "70e2d3b456b012n34abcdef5",
     name: "Berry Blast Smoothie",
     restaurant: "Berry Bar",
     restaurantAddress: "341 Berry Lane, Portland, USA",
@@ -1039,10 +1034,10 @@ export const foodData = [
     image:
       "https://images.unsplash.com/photo-1505252585461-04db1eb84625?auto=format&fit=crop&w=800&q=80",
     category: "drinks",
-    tags: ["🍃 Veg", "🍓 Fruity"],
+    tags: ["🍃 Veg", "🍓 Fruity"]
   },
   {
-    id: 37,
+    id: "5c5a3e4567c123o45abcdef6",
     name: "Butterscotch Shake",
     restaurant: "Sweet Spot",
     restaurantAddress: "351 Sweet Street, Austin, USA",
@@ -1054,10 +1049,10 @@ export const foodData = [
     image:
       "https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=800&q=80",
     category: "drinks",
-    tags: ["🍃 Veg", "🍭 Sweet"],
+    tags: ["🍃 Veg", "🍭 Sweet"]
   },
   {
-    id: 38,
+    id: "71f3e4c567d234p56abcdef7",
     name: "Mint Lemonade",
     restaurant: "Fresh & Cool",
     restaurantAddress: "361 Fresh Blvd, Vancouver, Canada",
@@ -1069,10 +1064,10 @@ export const foodData = [
     image:
       "https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&w=800&q=80",
     category: "drinks",
-    tags: ["🍃 Veg", "💧 Refreshing"],
+    tags: ["🍃 Veg", "💧 Refreshing"]
   },
   {
-    id: 39,
+    id: "5d6b4f5678e345q67abcdef8",
     name: "Cookie Cream Shake",
     restaurant: "Cookie Castle",
     restaurantAddress: "371 Cookie Road, New York, USA",
@@ -1084,10 +1079,10 @@ export const foodData = [
     image:
       "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=800&q=80",
     category: "drinks",
-    tags: ["🍃 Veg", "🍭 Sweet"],
+    tags: ["🍃 Veg", "🍭 Sweet"]
   },
   {
-    id: 40,
+    id: "72a4f5d678f456r78abcdef9",
     name: "Passion Fruit Mojito",
     restaurant: "Tropical Mix",
     restaurantAddress: "381 Tropical Street, Orlando, USA",
@@ -1099,10 +1094,10 @@ export const foodData = [
     image:
       "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=800&q=80",
     category: "drinks",
-    tags: ["🍃 Veg", "🏝️ Tropical"],
+    tags: ["🍃 Veg", "🏝️ Tropical"]
   },
   {
-    id: 41,
+    id: "5e7c5a6789a567s89abcdef0",
     name: "Nutella Milkshake",
     restaurant: "Chocolate Haven",
     restaurantAddress: "391 Chocolate Ave, Paris, France",
@@ -1114,10 +1109,10 @@ export const foodData = [
     image:
       "https://images.unsplash.com/photo-1579954115545-a95591f28bfc?auto=format&fit=crop&w=800&q=80",
     category: "drinks",
-    tags: ["🍃 Veg", "🍭 Sweet"],
+    tags: ["🍃 Veg", "🍭 Sweet"]
   },
   {
-    id: 42,
+    id: "73b5a6e789b678t90abcdef1",
     name: "Virgin Margarita",
     restaurant: "Mocktail Lounge",
     restaurantAddress: "401 Lounge Blvd, London, UK",
@@ -1129,6 +1124,6 @@ export const foodData = [
     image:
       "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=800&q=80",
     category: "drinks",
-    tags: ["🍃 Veg", "🍊 Citrusy"],
-  },
-];
+    tags: ["🍃 Veg", "🍊 Citrusy"]
+  }
+]

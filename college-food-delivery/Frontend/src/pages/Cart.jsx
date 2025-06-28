@@ -3,10 +3,13 @@ import { Minus, Plus, Trash2,ShoppingCart} from "lucide-react";
 import { useDispatch, useSelector } from "react-redux";
 import { removeItem, incrementQty, decrementQty } from "../utils/cartSlice";
 import Navbar from "../components/Navbar";
+import { useNavigate } from "react-router-dom";
 
 const Cart = () => {
   const cartItems = useSelector((store) => store.cart.items);
   const dispatch = useDispatch();
+
+  const navigate=useNavigate();
 
   const subtotal = cartItems.reduce(
     (sum, item) => sum + item.price * item.quantity,
@@ -83,7 +86,16 @@ const Cart = () => {
           <span>Total</span>
           <span>₹{total.toFixed(2)}</span>
         </div>
-        <button className="w-full mt-6 bg-[#111827] text-white py-3 rounded-md hover:bg-[#374151] transition">
+        <button
+        onClick={() =>
+              navigate("/checkout", {
+                state: {
+                  cartItems,
+                  totalAmount: total,
+                },
+              })
+            }
+        className="w-full mt-6 bg-[#111827] text-white py-3 rounded-md hover:bg-[#374151] transition">
           Checkout
         </button>
       </div>
