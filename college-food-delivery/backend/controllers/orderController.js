@@ -7,7 +7,7 @@ export const placeOrder = async (req, res) => {
       userId: req.user.id, 
       email: req.user.email,
       items: req.body.items,
-      totalAmount: req.body.totalAmount,
+      totalAmount: Math.round(req.body.totalAmount),
       status: 'Pending',
     });
 
@@ -48,30 +48,31 @@ export const getUserOrders = async (req, res) => {
 };
 export const updateOrderStatus = async (req, res) => {
   try {
-    const { email, status } = req.body;
+    const { email, status, totalAmount } = req.body;
 
-    if (!email || !status) {
-      return res.status(400).json({ success: false, message: "Email and status are required" });
+    if (!email || !status || !totalAmount) {
+      return res.status(400).json({ success: false, message: "Email, totalAmount, and status are required" });
     }
 
-    const allowedStatuses = ["Pending", "Preparing", "Out for Delivery", "Delivered", "Cancelled"];
-    if (!allowedStatuses.includes(status)) {
+    const allowedStatuses = ["pending", "delivered"];
+    if (!allowedStatuses.includes(status.toLowerCase())) {
       return res.status(400).json({ success: false, message: "Invalid status value" });
     }
 
     const updatedOrder = await Order.findOneAndUpdate(
-      { email },
+      { email, totalAmount },
       { status },
       { new: true }
     );
 
     if (!updatedOrder) {
-      return res.status(404).json({ success: false, message: "Order not found for the given email" });
+      return res.status(404).json({ success: false, message: "Order not found for the given email and total_amount" });
     }
 
+    console.log(`✅ Order for ${email} with totalAmount ${totalAmount} updated to status: ${status}`);
     res.json({ success: true, message: `Order status updated to ${status}`, order: updatedOrder });
   } catch (error) {
-    console.error("Error updating order status:", error);
+    console.error("❌ Error updating order status:", error);
     res.status(500).json({ success: false, message: "Server error" });
   }
 };

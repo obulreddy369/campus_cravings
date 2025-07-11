@@ -91,8 +91,8 @@ export const Login = async (req, res) => {
       .json({
         message: `Login successful ${user.name}`,
         success: true,
-        token, // ✅ Added token to frontend
-        user: { // ✅ Added user object for frontend usage
+        token, 
+        user: { 
           id: user._id,
           name: user.name,
           username: user.username,
